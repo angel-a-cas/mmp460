@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f8c794;
+}
+
+/* Pink title box */
+.title-box {
+    background-color: #f49891;
+    padding: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+  
+/* Overall Page Container */
+  .page-container {
+    padding: 40px;
+}
+  
+/* Page Title */
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+/* Row below the title */
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+  
+/* Left column with pink box */
+.left-column {
+    width: 40%;
+}
+  
+.pink-box {
+    background-color: #f49891;
+    padding: 30px;
+    border-radius: 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+}
+  
+.see-more {
+    font-size: 14px;
+    color: #ffffffcc;
+}
+
+.title-box, p {
+  font-family: 'Ribeye', Georgia, serif;
+}
+
+/* Top navigation bar */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 15px;
+  z-index: 1000;
+}
+
+/* Top nav buttons */
+.nav-button {
+  background-color: #f49891;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #e57871;
+  transform: translateY(-2px);
+}
+
+.right-images {
+  width: 55%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  align-self: flex-start;
+}
+
+.right-images img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3; /* keeps image proportions consistent */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+p, li, ol{
+    color:black;
+}

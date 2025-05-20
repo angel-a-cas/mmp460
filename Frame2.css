@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #f4bf8d; /* Peach background */
+    font-family: 'Georgia', serif;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+  
+.main-frame {
+    background-color: #4a8c95; /* Teal background */
+    width: 90%;
+    height: 80vh;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+}
+  
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+  
+.main-box {
+    background-color: #f49891; /* Pink box */
+    height: 600px;
+    width: 70%;
+}
+  
+.sidebar {
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+/* Top navigation bar */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 15px;
+  z-index: 1000;
+}
+
+/* Top nav buttons */
+.nav-button {
+  background-color: #f49891;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #e57871;
+  transform: translateY(-2px);
+}
+
+.title-box, p, li, ol {
+  font-family: 'Ribeye', Georgia, serif;
+}
+
+p, li, ol{
+    color:black;
+}
+
+.resource-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+  background-color: #f4bf8d; /* Optional: matches your theme */
+}
+
+.resource-button {
+  background-color: #f49891;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.resource-button:hover {
+  background-color: #e57871;
+  transform: translateY(-2px);
+}
+

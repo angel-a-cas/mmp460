@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background-color: #f4bf8d; /* Peach */
+    font-family: 'Georgia', serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .main-frame {
+    background-color: #4a8c95; /* Teal */
+    width: 90%;
+    min-height: 80vh;
+    padding: 40px;
+    position: relative;
+    color: white;
+  }
+  
+  .title {
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #f49891; /* Pink footer */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-image {
+  background-color: black;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Ensure the card itself changes on hover */
+.card-link .card {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-link:hover .card {
+  background-color: #e57871; /* Match nav-button hover color */
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+  
+  .image-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #f49891; /* Matches footer */
+    border-radius: 6px;
+  }
+  
+  .card-footer {
+    padding: 15px;
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  .card-footer a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.85em;
+  }
+  
+/* Top navigation bar */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 15px;
+  z-index: 1000;
+}
+
+/* Top nav buttons */
+.nav-button {
+  background-color: #f49891;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #e57871;
+  transform: translateY(-2px);
+}
+
+.title-box, p {
+  font-family: 'Ribeye', Georgia, serif;
+}
+
+p, li, ol{
+    color:black;
+}
