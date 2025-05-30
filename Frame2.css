@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f4bf8d; /* Peach background */
+    background-color: #f4bf8d;
     font-family: 'Georgia', serif;
 }
   
@@ -12,7 +12,7 @@ body {
 }
   
 .main-frame {
-    background-color: #4a8c95; /* Teal background */
+    background-color: #4a8c95;
     width: 90%;
     height: 80vh;
     padding: 40px;
@@ -30,7 +30,7 @@ body {
 }
   
 .main-box {
-    background-color: #f49891; /* Pink box */
+    background-color: #f49891;
     height: 600px;
     width: 70%;
 }
@@ -44,7 +44,6 @@ body {
     gap: 20px;
 }
   
-/* Top navigation bar */
 .top-nav {
   position: absolute;
   top: 20px;
@@ -54,7 +53,6 @@ body {
   z-index: 1000;
 }
 
-/* Top nav buttons */
 .nav-button {
   background-color: #f49891;
   color: white;
@@ -77,8 +75,8 @@ body {
   font-family: 'Ribeye', Georgia, serif;
 }
 
-p, li, ol{
-    color:black;
+p, li, ol {
+    color: black;
 }
 
 .resource-buttons {
@@ -88,7 +86,7 @@ p, li, ol{
   justify-content: center;
   padding: 40px 20px;
   margin-top: 40px;
-  background-color: #f4bf8d; /* Optional: matches your theme */
+  background-color: #f4bf8d;
 }
 
 .resource-button {
@@ -110,3 +108,24 @@ p, li, ol{
   transform: translateY(-2px);
 }
 
+/* Responsive Pink Box */
+.pink-box {
+  background-color: #f49891;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: black;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .pink-box {
+    padding: 16px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+}
